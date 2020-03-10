@@ -1,0 +1,11 @@
+{
+  "message": "hello i18n !!",
+  "labels": {
+    "transactions": {
+      "id": "ID",
+      "date": "Date",
+      "amount_crypto": "Amount in Crypto",
+      "amount_real": "Amount in Real"
+    }
+  }
+}
