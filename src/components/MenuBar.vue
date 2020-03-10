@@ -6,7 +6,7 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#" @click="openFile">Link</b-nav-item>
+        <b-nav-item href="#"> <input type="file" value="Link"/></b-nav-item>
         <b-nav-item href="#" disabled>Disabled</b-nav-item>
       </b-navbar-nav>
 
@@ -44,17 +44,14 @@
 </template>
 
 <script>
+//TODO make conditional
+//import { dialog } from "electron";
+
 export default {
   methods: {
-    openFile: function() {
-      const { dialog } = require("electron");
-      console.log(
-        dialog.showOpenDialog({ properties: ["openFile", "multiSelections"] })
-      );
-    }
+    openFile: function() {}
   }
 };
 </script>
 
-<style>
-</style>
+<style></style>
